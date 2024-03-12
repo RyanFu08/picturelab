@@ -1,0 +1,21 @@
+sq3 + sq5 + sq7 = a/b
+sq3 + sq5 = a/b - sq7
+3 + 5 + 2sq15 = a^2/b^2 + 7 - 2a sq7 / b
+sq15 - rational = -sq7 / b
+15 + rational - 
+
+
+inductive?
+
+First, consider a sum in the form of $\sqrt{a_1} + \sqrt{a_2} + \sqrt{a_3} + \dots + \sqrt{a_n}$, where $a_i$ is an integer.
+We prove this via induction.
+
+As a base case, we have already proved the $n = 2$ case in part a.
+
+Then, assume that the condition holds true for $n-1$. 
+
+Consider the sequence $\sqrt{a_1} + \sqrt{a_2} + \dots + \sqrt{a_n}$. If it is rational, then we can express it as $\sqrt{a_1} + \sqrt{a_2} + \dots + \sqrt{a_n} = r$, where $r$ is rational.
+
+Moving $\sqrt{a_n}$ to the other side, we get that $\sqrt{a_1} + \sqrt{a_2} + \dots + \sqrt{a_{n_1}} = r - \sqrt{a_n}$.
+
+Squaring yields $r + $
